@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Sign Up</title>
+</head>
+<body background="./pictures/signup.jpg">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./pictures/Kerala_Tourism_FB.png" alt="" width="70" height="64">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./index.html" target="blank">Home</a>
+            <a class="nav-link" href="./login.html" target="blank">Login</a>
+            <a class="nav-link active" href="#">Sign Up</a>
+            <a class="nav-link" href="./districts.html" target="blank">Districts</a>
+           
+          </div>
+          
+        </div>
+        
+      </div>
+    
+    </nav>
+    
+    
+  </header>
+    <div class="position-absol">
+      <form action="./index.html"class="signup" onsubmit="return validate()">
+        <p>Please signup for our services. ALready a user?<a href="./login.html">Login</a></p><br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required placeholder="first name"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required placeholder="last name"><br><br>
+        <label for="email">Email</label>
+        <input type="text" required placeholder="email address" id="email">
+        <label for="emailerror"id="emailerror"></label>
+        <br><br>
+        <label for="email">password</label>
+        <input type="password" required placeholder="password" id="pwd">
+        <label for="pwderror"id="pwderror"></label>
+        <br>
+        <br>
+        <label for="Phone no">Phone no.</label>
+        <input type="number" required placeholder="Phone no." id="ph">
+        <label for="pherror" id="pherror"></label><br><br>
+        <button type="submit" class="btn btn-primary">Login</button>
+        
+      </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+footer{
+    background-color: black;
+    color: aquamarine;
+    height: 1.5em;
+}
+footer h6{
+    text-align: center;
+}
+
+body{
+    
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+.login{
+    margin-left: 39%;
+    border: 2px solid red;
+    background-color:bisque;
+    height:max-content;
+    margin-top: 5%;
+    padding: 30px;
+    width: max-content;
+}
+
+.btn{
+    margin-left: 40%;
+}
+
+.signup{
+    margin-left: 38%;
+    border: 2px solid purple;
+    background-color:plum;
+    height:max-content;
+    margin-top: 5%;
+    padding: 30px;
+    width: max-content;
+}
+
+.bttn{
+    margin-left: 40%;
+}
+
+.subhead a{
+    color: black;
+}
+
+.subhead a:hover{
+    color: blueviolet;
+}
+
+
+.dist img{
+    height: 300px;
+    width: 400px;
+}
+
+
+
+.p-box img{
+    width: 300px;
+    height: 200px;
+}
+
+.p-box{
+    border: 1px solid grey;
+    width: 24%;
+    float: left;
+    margin: 1px;;
+    height: 30em;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.p-box h6{
+    text-align: center;
+    color: brown;
+
+}
